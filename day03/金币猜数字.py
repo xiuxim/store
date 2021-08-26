@@ -13,7 +13,7 @@ while True:
         print("用户名或密码错误，请重新登录")
 
 import random
-num=random.randint(1,100)
+num=random.randint(1,500)
 count=0
 integral=5000
 while True:
@@ -31,6 +31,7 @@ while True:
             integral=integral+10000
             print("恭喜您猜对了！本次数字为：",num,"您共猜了",count,"次","金币剩余：",integral)
             print("是否继续进行游戏，是，否")
+            count=0
             chose=input()
             if chose=="否":
                 break

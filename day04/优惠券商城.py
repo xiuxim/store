@@ -58,6 +58,9 @@ while i<20:
         print("对不起，别瞎弄！重新输入！")
 i=i+1
 
+
+
+
 print("以下是您的购物小条，请拿好！！！！么么哒！")
 print("".center(30,"-"))
 for key,value in enumerate(mycart):
